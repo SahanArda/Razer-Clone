@@ -1,0 +1,25 @@
+:root {
+  --cx-g-color-primary: #44d62c;
+  --cx-color-primary: #44d62c;
+  --cx-color-light: #222;
+  --cx-color-background: #222;
+  --cx-g-color-background: #f4f4f4;
+  --razer-color-body-text: #999;
+
+  --font-primary: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cx-color-background);
+    color: var(--razer-color-body-text);
+}
