@@ -80,3 +80,18 @@ nav {
 .fa-solid:hover {
     color: var(--cx-g-color-background);
 }
+
+@media screen and (max-width: 1150px) {
+    header {
+        padding: 8px 0;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    .fa-solid {
+        position: absolute;
+        top: 15px;
+        right: -10px;
+    }
+}
